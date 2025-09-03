@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="projectstyle.css">
+    <link rel="icon" type="image/png" href="https://play-lh.googleusercontent.com/C-teXFr5WWYQd9fnI_G4mFFd1S4m_OcIlimAFP_mBP36PxtpPXsd9C4SJwsNa3IpIKY">
+    <title>Rana Tarek | Portfolio</title>
+</head>
+<body> 
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Navigation bar -->
+    <div class="header">  
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Rana Tarek Ahmed</h1>
+                </div>
+                <div class="nav_cont">
+                    <ul class="links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#what-i-do">What I Do</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="socialicons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <!-- Hamburger for mobile -->
+                <div id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+    </div>    
+    
+    <!-- Home Section -->
+    <section id="home" class="home">         
+        <div class="home-content">
+            <h1>Welcome</h1>
+            <p>I am <span class="highlight">Rana Tarek Ahmed</span></p>
+            <p class="typing-text">Software Engineer</p>
+            <p>based in Cairo, Egypt</p>
+            <div class="btn-container">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#portfolio" class="btn btn-outline">View Work</a>
+            </div>
+        </div>  
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>About Me</h3>
+                    <p><i class="fas fa-code"></i> I'm a web developer(Full-Stack), AI engineer, data engineer, Networks engineer. Passion for creating intuitive and dynamic user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="what-i-do" class="services">
+        <div class="container">
+            <h2><i class="fas fa-code"></i> What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Full-Stack Web Development</h3>
+                    <p>Building responsive and interactive websites using modern technologies like HTML5, CSS, JavaScript. Working with databases, APIs, and system architecture to deliver reliable solutions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Network Engineer</h3>
+                    <p>Designing, implementing, and managing computer networks to ensure secure, reliable, and efficient communication across systems and devices.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Data Engineer</h3>
+                    <p>Building efficient ETL pipelines and managing scalable databases for business intelligence and analytics.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>AI Engineer</h3>
+                    <p>Developing machine learning models and AI solutions that bring real-world value.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive user interfaces and experiences that are both beautiful and functional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2><i class="fas fa-file-alt"></i> My Resume</h2>
+            <div class="resume-tabs">
+                <button class="tab-btn active" data-tab="education">Education</button>
+                <button class="tab-btn" data-tab="experience">Experience</button>
+                <button class="tab-btn" data-tab="skills">Skills</button>
+            </div>
+
+            <div class="tab-content active" id="education">
+                <div class="resume-grid">
+                    <div class="resume-item">
+                        <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="resume-details">
+                            <h4>Faculty of Computers and Artificial Intelligence</h4>
+                            <div class="date"><i class="far fa-calendar-alt"></i> 2023 - 2027</div>
+                            <p><i class="fas fa-university"></i> Cairo University</p>
+                            <p>Bachelor's degree in Computer Science with focus on web technologies and user experience design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="experience">
+                <div class="resume-grid">
+                    <div class="resume-item">
+                        <div class="resume-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="resume-details">
+                            <h4>Web Developer</h4>
+                            <div class="date"><i class="far fa-calendar-alt"></i> 2024 - 2025</div>
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="skills">
+                <div class="skills-progress">
+                    <div class="skill">
+                        <div class="skill-info"><span>HTML</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>CSS</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>JavaScript</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>Python</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>Django</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>C++</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>SQL</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>Problem Solving</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>C</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>Java</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>C#</span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info"><span>ERD</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2><i class="fas fa-briefcase"></i> My Work</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="database">Database Projects</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMzQ5OGRiIiBvcGFjaXR5PSIwLjIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmaWxsPSIjZmZmIj5XZWIgUHJvamVjdDwvdGV4dD48L3N2Zz4=" alt="Web Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Recipe Hub</h3>
+                                <p>HTML, CSS, JS, Django</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="database">
+                    <div class="portfolio-img">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmYzZjVmIiBvcGFjaXR5PSIwLjIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmaWxsPSIjZmZmIj5EYXRhYmFzZSBwcm9qZWN0PC90ZXh0Pjwvc3ZnPg==" alt="Database project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Course Management System</h3>
+                                <p>SQL, C#, Visual Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjM2RkYzY0IiBvcGFjaXR5PSIwLjIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmaWxsPSIjZmZmIj5VSS9YIFByb2plY3Q8L3RleHQ+PC9zdmc+" alt="UI/UX Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Banking App UI</h3>
+                                <p>Figma, Adobe XD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1><i class="fas fa-envelope"></i> Get in Touch</h1>
+            <div class="contact-content">
+                <div class="form">
+                    <form id="contactForm">
+                        <fieldset>
+                            <legend>Send Us A Note</legend>
+                            <div class="form-row">
+                                <input type="text" placeholder="Name" id="name" required>
+                                <input type="email" placeholder="Email" id="email" required>
+                            </div>
+                            <textarea placeholder="Tell us more about your needs..." rows="4" id="message" required></textarea>
+                            <div class="form-status" id="formStatus"></div>
+                            <button type="submit" id="submitBtn">Send Message</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="communication">
+                    <div class="contact-info">
+                        <a href="#"><i class="fa-solid fa-phone"></i>01123839388</a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i> r.tarekahmed@gmail.com</a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</a>
+                    </div>
+                    <h2>Follow Me</h2>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal (for portfolio projects) -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image" id="modalImage"></div>
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <div class="modal-technologies">
+                    <h3>Technologies Used</h3>
+                    <ul id="modalTechList"></ul>
+                </div>
+                <div class="modal-links">
+                    <a href="#" id="modalDemoLink" class="btn btn-outline" target="_blank">Live Demo</a>
+                    <a href="#" id="modalCodeLink" class="btn" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Rana Tarek Ahmed. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="projectjs.js"></script>
+</body>
+</html>
