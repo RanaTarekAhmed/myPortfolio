@@ -4,4 +4,5 @@ It is my personal portfolio made by HTML , CSS and JavaScript. designed to highl
 
 
 
-# <img width="1920" height="1007" alt="Screenshot 2025-09-03 174525" src="https://github.com/user-attachments/assets/42250adb-8e69-42d8-b16b-a57b7b0dd8f0" />
+# <img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/95fe819e-3bf5-4555-a5ce-d96016e96936" />
+
