@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initContactForm();
   initModal();
   initAnimations();
+  initThemeToggle();
 });
 
 // Navigation
@@ -434,4 +435,31 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     timeout = setTimeout(() => func(...args), wait);
   };
+}
+
+function initThemeToggle() {
+  const themeToggle = document.getElementById("themeToggle");
+  const themeIcon = themeToggle.querySelector("i");
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    updateThemeIcon(savedTheme, themeIcon);
+  }
+
+  themeToggle.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "light" ? "dark" : "light";
+
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    updateThemeIcon(newTheme, themeIcon);
+  });
+}
+
+function updateThemeIcon(theme, iconElement) {
+  if (theme === "light") {
+    iconElement.className = "fas fa-sun";
+  } else {
+    iconElement.className = "fas fa-moon";
+  }
 }
