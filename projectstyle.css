@@ -976,12 +976,13 @@ h2 i {
 }
 
 .form button {
-  background: linear-gradient(45deg, var(--primary-color), #e91e63);
-  padding: 15px 30px;
-  font-size: 1.1rem;
-  border-radius: 10px;
+  color: white;
+  background:  #fe77b7;
+  border-color: #fe77b7;
+  padding: 20px 30px;
+  font-size: 1.3rem;
+  border-radius: 12px;
   margin-top: 15px;
-  transition: all 0.3s ease;
 }
 
 .form button:hover {
