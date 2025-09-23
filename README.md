@@ -1,5 +1,5 @@
 # myPortfolio
-It is my personal portfolio made by HTML , CSS and JavaScript. designed to highlight my projects, skills. The design emphasizes readability and visual appeal, using modern techniques for animations, transitions, and layout structuring.
+It is my personal portfolio made by HTML , CSS and JavaScript. designed to highlight my projects, skills. The design emphasizes readability and visual appeal, using modern techniques for animations, transitions, and layout structuring support light and dark modes.
 
 
 
