@@ -1,0 +1,25 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "It is my personal portfolio made by HTML , CSS and JavaScript. designed to highlight my projects, skills. The design emphasizes readability and visual appeal, using modern techniques for animations, transitions, and layout structuring support light and dark modes.",
+  "main": "projectjs.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanaTarekAhmed/myPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RanaTarekAhmed/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/RanaTarekAhmed/myPortfolio#readme",
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2"
+  }
+}

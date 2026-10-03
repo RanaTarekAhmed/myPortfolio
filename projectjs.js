@@ -1,5 +1,5 @@
 // DOM Content Loaded
-document.addEventListener("DOMContentLoaded", function () {
+function initPortfolio() {
   initNavigation();
   initTypingEffect();
   initScrollEffects();
@@ -11,7 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
   initModal();
   initAnimations();
   initThemeToggle();
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  initPortfolio();
 });
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { initPortfolio };
+}
 
 // Navigation
 function initNavigation() {
@@ -263,7 +271,6 @@ function initPortfolioFilter() {
   });
 }
 
-// Contact Form
 function initContactForm() {
   const contactForm = document.getElementById("contactForm");
   if (!contactForm) return;
@@ -276,7 +283,7 @@ function initContactForm() {
     const message = document.getElementById("message").value.trim();
 
     if (!name || !email || !message)
-      return showFormStatus(formStatus, "Please fill in all fields", "error");
+      return showFormStatus(formStatus, "All fields are required", "error");
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
       return showFormStatus(
         formStatus,
