@@ -282,7 +282,7 @@ function initContactForm() {
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
 
-    if (name || !email || !message)
+    if (!name || !email || !message)
       return showFormStatus(formStatus, "All fields are required", "error");
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
       return showFormStatus(
